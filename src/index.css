@@ -1,13 +1,54 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  /* birthadya */
+}
+.centre1 {
+  align-items: center;
+  background-color: aliceblue;
+  text-align: left;
+  margin-left: 20px;
+}
+.thumbnail {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.btnM {
+  justify-content: space-between;
+}
+
+/* tour */
+.width1 {
+  align-items: center;
+  padding: 2rem;
+  justify-content: center;
+}
+.centr {
+  align-content: center;
+}
+.card {
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  float: right;
+  color: rgb(240, 51, 51);
+}
+.bt {
+  border-radius: 1rem;
+}
+.cardd {
+  margin: auto;
 }
