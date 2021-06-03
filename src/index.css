@@ -52,3 +52,24 @@ code {
 .cardd {
   margin: auto;
 }
+.card1 {
+  background-color: azure;
+}
+.text1 {
+  text-align: justify;
+}
+/* .colM {
+  display: flex;
+} */
+.myhw {
+  width: 450px;
+}
+.floa {
+  text-align: left;
+}
+.row2 {
+  justify-content: space-between;
+}
+.bgcolor {
+  background-color: aliceblue;
+}
