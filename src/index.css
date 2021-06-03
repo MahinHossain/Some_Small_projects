@@ -73,3 +73,20 @@ code {
 .bgcolor {
   background-color: aliceblue;
 }
+/* slide */
+
+.rounded {
+  position: fixed;
+  top: 20%;
+  width: 500px;
+  height: 400px;
+  left: 30%;
+}
+.cardimage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.spaceb {
+  background-color: aliceblue;
+}

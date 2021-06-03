@@ -26,7 +26,7 @@ export default function Menu() {
 
           <div className="col-6 ">
             <div className="row row2">
-              <p className="ml-3">{item.title}</p>
+              <h5 className="ml-3">{item.title.toUpperCase()}</h5>
 
               <p className="card-text text-danger">${item.price}</p>
             </div>
