@@ -1,9 +1,12 @@
 import logo from "./logo.svg";
+
 import "./App.css";
 import Birthday from "./Birthday/Birthday";
 import Tour from "./Tour/Tour";
 import Menu from "./FoodMenu/Menu";
 import Slide from "./Slider/Slider";
+import SliderTest from "./SliderTest/SliderTest";
+
 function App() {
   return (
     <div className="App">
@@ -12,10 +15,7 @@ function App() {
       {/* <Menu /> */}
       {/* <Slide /> */}
 
-      <nav>mahin</nav>
-      <button type="button" className="mybtn">
-        click
-      </button>
+      <SliderTest />
     </div>
   );
 }
