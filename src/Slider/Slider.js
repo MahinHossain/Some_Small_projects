@@ -43,8 +43,13 @@ export default function Slider() {
             </button>
           </div>
           <div className="col-8 text-center">
-            <h5>{people.name}</h5>{" "}
-            <h6 className="text-danger">{people.title}</h6>{" "}
+            <h5 className="text-capitalize text-    bold">{people.name}</h5>{" "}
+            <h6
+              className="text-danger text-capitalize
+            "
+            >
+              {people.title}
+            </h6>{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
