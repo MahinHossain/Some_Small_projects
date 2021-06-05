@@ -10,7 +10,12 @@ function App() {
       {/* <Birthday /> */}
       {/* <Tour />   */}
       {/* <Menu /> */}
-      <Slide />
+      {/* <Slide /> */}
+
+      <nav>mahin</nav>
+      <button type="button" className="mybtn">
+        click
+      </button>
     </div>
   );
 }

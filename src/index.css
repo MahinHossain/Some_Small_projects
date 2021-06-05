@@ -86,6 +86,39 @@ code {
   height: 100px;
   width: 100px;
   border-radius: 50px;
+  margin-left: 15px;
 }
 .spaceb {
+}
+
+.example1 {
+  height: 600px;
+  background-image: linear-gradient(to left, rgb(179, 214, 212), yellow);
+}
+.fontColor {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.mycs {
+  flex: 1;
+  text-align: right;
+}
+
+nav {
+  background-color: blue;
+}
+.mybtn {
+  color: rgb(51, 146, 114);
+  background-color: brown;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    background-color: olive;
+  }
+  .mybtn:hover {
+    color: rgb(207, 49, 115);
+    background-color: rgb(168, 52, 17);
+    height: 40px;
+  }
 }
