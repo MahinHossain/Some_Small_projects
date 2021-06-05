@@ -12,6 +12,7 @@ code {
     monospace;
   /* birthadya */
 }
+
 .centre1 {
   align-items: center;
   background-color: aliceblue;
@@ -92,8 +93,8 @@ code {
   height: 40px;
   width: 50px;
   top: 50%;
-  left: 10%;
-  z-index: 20;
+  left: 0%;
+  z-index: 0%;
   cursor: pointer;
   user-select: none;
 }
@@ -103,8 +104,8 @@ code {
   height: 40px;
   width: 50px;
   top: 50%;
-  right: 10%;
-  z-index: 20;
+  right: 0%;
+  z-index: 10;
   cursor: pointer;
   user-select: none;
 }
@@ -133,11 +134,49 @@ code {
 }
 
 .slider {
-  position: absolute;
+  /* position: absolute; */
 
-  top: 10%;
+  /* top: 0%; */
   width: 100%;
-  display: flex;
+
   justify-content: center;
   align-items: center;
+}
+.ml-auto {
+  background-color: black;
+  visibility: hidden;
+}
+@media only screen and (max-width: 700px) {
+  .ml-auto {
+    background-color: black;
+    visibility: visible;
+  }
+
+  .image {
+    top: 10%;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+  }
+  .hEIGHTwIDTHLeft {
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    top: 70%;
+    left: 0%;
+    z-index: 20;
+    cursor: pointer;
+    user-select: none;
+  }
+  .hEIGHTwIDTHRight {
+    position: absolute;
+
+    height: 40px;
+    width: 50px;
+    top: 70%;
+    right: 0%;
+    z-index: 20;
+    cursor: pointer;
+    user-select: none;
+  }
 }

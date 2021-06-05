@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Birthday() {
   const [people, setpeople] = useState(Data);
   return (
-    <div>
+    <div className="col-12">
       {people.length ? (
         <>
           <h5 className=" centre1 ">Birthday </h5>{" "}

@@ -3,6 +3,7 @@ import ImageData from "../FoodMenu/Data";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { useState } from "react";
+import Tour from "../Tour/Tour";
 // https://www.youtube.com/watch?v=l1MYfu5YWHc
 export default function SliderTest() {
   const [currentindex, setcurrentindex] = useState(0);
@@ -21,7 +22,9 @@ export default function SliderTest() {
     return <h1>No data</h1>;
   }
   return (
-    <div className="slider">
+    <div className="slider row">
+      <h1 className="text-success mb-3 text-center ">The Hot & Spycy</h1>
+      <button className="btn btn-outline-info ml-auto"> hide</button>
       <FaArrowAltCircleLeft onClick={prevSlide} className="hEIGHTwIDTHLeft" />
       <FaArrowAltCircleRight
         className="hEIGHTwIDTHRight"

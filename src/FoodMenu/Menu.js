@@ -21,16 +21,20 @@ export default function Menu() {
       <h4 className="text-primary">Our Menu</h4>
       <Category filteritem={filteritem} category={category} />
       {itemMenu.map((item) => (
-        <div className="row p-3 mt-4 bgcolor myhw d-flex ">
-          <img className="col-6" src={item.img} />
+        <div className="row">
+          <img className=" card-img-top col-3 p-4" src={item.img} />
 
-          <div className="col-6 ">
-            <div className="row row2">
-              <h5 className="ml-3">{item.title.toUpperCase()}</h5>
+          <div className="row col-3 ">
+            <div className="">
+              <h5 className="">{item.title.toUpperCase()}</h5>
 
-              <p className="card-text text-danger">${item.price}</p>
+              <p className="text-danger font-smaller font-italic ">
+                ${item.price}
+              </p>
             </div>
-            <p className="floa">{item.desc} </p>
+            <p className="font-smaller  text-capitalize font-weight-light   ">
+              {item.desc}{" "}
+            </p>
           </div>
         </div>
       ))}

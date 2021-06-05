@@ -9,13 +9,13 @@ import SliderTest from "./SliderTest/SliderTest";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Birthday /> */}
-      {/* <Tour />   */}
-      {/* <Menu /> */}
-      {/* <Slide /> */}
-
+    <div className="App row">
       <SliderTest />
+      <Tour />
+      <Menu />
+      <Slide />
+
+      <Birthday />
     </div>
   );
 }
