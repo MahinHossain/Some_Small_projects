@@ -11,11 +11,18 @@ function App() {
   return (
     <div className="App row">
       <SliderTest />
+      <div className="bg-dark p-4 w-100 h-100 m-5"></div>
       <Tour />
+      <div className="bg-dark p-4 w-100 h-100 m-5"></div>
+
       <Menu />
+      <div className="bg-dark p-4 w-100 h-100 m-5"></div>
+
       <Slide />
+      <div className="bg-dark p-4 w-100 h-100 m-5"></div>
 
       <Birthday />
+      <div className="bg-dark p-4 w-100 h-100 m-5"></div>
     </div>
   );
 }
