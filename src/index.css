@@ -76,11 +76,7 @@ code {
 /* slide */
 
 .rounded {
-  position: fixed;
-  top: 20%;
-  width: 500px;
-  height: 400px;
-  left: 30%;
+  overflow: hidden;
 }
 .cardimage {
   height: 100px;
